@@ -8,6 +8,16 @@
       <title>EMBRABIOTECH — Bioindústria Sustentável</title>
       <meta name="description" content="Empresa Brasileira de Biotecnologia. Transformamos resíduos marinhos e industriais em insumos de valor. Pesquisa aplicada em bioeconomia, engenharia de processos e sustentabilidade industrial. Itapissuma, Pernambuco." />
       <link rel="icon" type="image/png" href="/favicon.png" />
+      <!-- Este build é servido no github.io apenas como fonte do iframe do site
+           Wix (www.embrabiotech.com.br). Não deve ser indexado nem acessado
+           direto: fora do iframe, redireciona para o domínio oficial. -->
+      <meta name="robots" content="noindex, nofollow" />
+      <link rel="canonical" href="https://www.embrabiotech.com.br/" />
+      <script>
+        if (window.top === window.self && location.hostname.endsWith('github.io')) {
+          location.replace('https://www.embrabiotech.com.br/');
+        }
+      </script>
       <style>html, body { height: 100%; margin: 0; } #root { height: 100%; }</style>
 
       <script type="module" crossorigin src="/assets/index-DlUrCcMB.js"></script>
